@@ -8,8 +8,8 @@ const { query } = require('express')
 var pool = mysql.createPool({
   connectionLimit: 20,
   host: 'localhost',
-  user: 'antonio',
-  password: 'antonio99',
+  user: 'root',
+  password: 'root',
   database: 'blog_viajes'
 })
 
